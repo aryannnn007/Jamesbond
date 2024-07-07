@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio | For Aryan</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+
+            position: relative;
+
+        }
+
+        .child1 {
+            background-color: lightskyblue;
+            width:94%;
+            height: 60px;
+            padding: 0 3vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: #dadada 3px solid;
+
+        }
+
+        .child2 {
+            display: flex;
+            gap: 3vw;
+
+        }
+
+        .child1 h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 3vw;
+            font-weight: 700;
+        }
+
+        .child2 h4 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5vw;
+            font-weight: 700;
+
+        }
+
+        .child2 i {
+            display: none;
+        }
+
+        .contant {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            position: relative;
+        }
+
+        .left {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 4vw 3vw;
+            height: 84%;
+            width: 50%;
+            color: #000000;
+
+        }
+
+        .left h1 {
+            font-weight: 800;
+            font-size: 3vw;
+
+        }
+
+        .right {
+            height: 100%;
+            width: 50%;
+
+        }
+
+        .right img {
+            height: 100%;
+            width: 100%
+        }
+
+        span {
+            color: #C64045;
+        }
+
+        .contant .left p {
+            margin-top: 2vw;
+            font-size: 1.5vw;
+            margin-bottom: 3vw;
+            color: #000000;
+        }
+
+        .contant button {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #8AB674;
+            color: white;
+            padding: 1vw 2vw;
+            font-size: 1vw;
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        .child2 button {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #8AB674;
+            color: white;
+            padding: 0.7vw 1.6vw;
+            font-size: 1vw;
+            border: none;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+
+
+        @media (max-width:600px) {
+            .child1 {
+                background-color: lightgreen;
+                color: rgb(0, 0, 0);
+
+
+
+            }
+
+            .child1 h2 {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding: 0 5vw;
+                font-size: 6vw;
+                font-weight: 700;
+            }
+
+            .child2 h4 {
+                font-size: 4vw;
+                display: none;
+
+            }
+
+            .child2 button {
+                display: none;
+            }
+
+            .child2 i {
+                display: block;
+                font-size: 6vw;
+            }
+
+            .contant {
+                height: calc(100% - 60px);
+                flex-direction: column;
+            }
+
+            .left {
+                width: 100%;
+                height: 60%;
+            }
+
+            .right {
+                width: 100%;
+                height: 40%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child1">
+            <h2>Logo</h2>
+
+            <div class="child2">
+                <h4>Home</h4>
+                <h4>Contact</h4>
+                <h4>Order</h4>
+                <h4>About </h4>
+                <h4>Account</h4>
+                <i class="ri-menu-3-line"></i>
+                <button>Sign In</button>
+            </div>
+        </div>
+        <div class="contant">
+            <div class="left">
+                <h1> <span>Hey...</span><br>This is <span>Aryan's</span> Website What Do You Want Me To Do!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odio necessitatibus laborum, nisi
+                    alias doloribus, architecto vel itaque explicabo quas impedit aut adipisci! Eligendi pariatur
+                    praesentium optio necessitatibus aut, debitis quia rerum, qui, eaque corrupti nesciunt culpa ullam
+                    harum incidunt possimus. Similique sequi explicabo consequuntur fuga consectetur! Voluptatum quod
+                    libero perferendis nisi tenetur, asperiores culpa, ad fuga deserunt illo ea eligendi iusto
+                    blanditiis? Exercitationem quod ad sit libero blanditiis in, beatae fugit distinctio </p>
+                <button>
+                    Explore Now
+                </button>
+            </div>
+            <div class="right">
+                <img src="boyy.png">
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
